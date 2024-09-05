@@ -18,21 +18,21 @@ namespace CSLight
     {
         static void Main(string[] args)
         {
-            string a = "name";
-            string b = "surname";
-            Console.WriteLine($"{a};{b}");
+            string name = "name";
+            string surname = "surname";
+            Console.WriteLine($"{name};{surname}");
 
-            (a, b) = (b, a);
+            (name, surname) = (surname, name);
 
-            Console.WriteLine($"{a};{b}");
+            Console.WriteLine($"{name};{surname}");
 
-            string c = "coffee";
-            string d = "tea";
-            Console.WriteLine($"{c};{d}");
+            string coffee = "coffee";
+            string tea = "tea";
+            Console.WriteLine($"{coffee};{tea}");
 
-            (c, d) = (d, c);
+            (coffee, tea) = (tea, coffee);
 
-            Console.WriteLine($"{c};{d}");
+            Console.WriteLine($"{coffee};{tea}");
         }
     }
 }
